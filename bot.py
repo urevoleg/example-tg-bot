@@ -64,7 +64,7 @@ def processed_voice(update: Update, context: CallbackContext) -> None:
     with open(audio_path, 'wb') as f:
         f.write(audio)
 
-    if voice_obj.duration < 7:
+    if voice_obj.duration < 10:
         update.message.reply_text(f"Duration is too short, try again for 10+ seconds!")
     else:
         import soundfile as sf
