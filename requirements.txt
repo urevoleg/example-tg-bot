@@ -1,0 +1,8 @@
+# telegram
+python-telegram-bot==13
+
+# secrets
+python-dotenv
+
+# network
+requests
