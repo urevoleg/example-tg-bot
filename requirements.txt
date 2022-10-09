@@ -8,4 +8,13 @@ python-dotenv
 requests
 
 # web
-flask
+#flask
+
+# analyze audio
+librosa
+soundfile
+pyloudnorm
+
+# data analyze
+matplotlib
+seaborn
