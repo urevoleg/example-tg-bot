@@ -54,6 +54,8 @@ def main() -> None:
     # Create the Updater and pass it your bot's token.
     updater = Updater(os.getenv('TG_TOKEN'))
 
+    updater.bot.send_message(chat_id="-155357321", text="Hello from bot!")
+
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
 
