@@ -54,7 +54,6 @@ def echo(update: Update, context: CallbackContext) -> None:
 
 
 def processed_voice(update: Update, context: CallbackContext) -> None:
-    """Echo the user message."""
     update.message.reply_text(f"It's a voice message! Processing.....")
 
     voice_obj = update.message.voice
